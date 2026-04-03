@@ -35,10 +35,10 @@ Simple REST API for managing employees using **Spring Boot + JPA + MySQL**.
 ##  Configuration
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/bankcrud
+spring.datasource.url=jdbc:mysql://localhost:3306/sample
 spring.datasource.username=root
 spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.ddl-auto=create
 ```
 
 ---
